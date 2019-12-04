@@ -4,7 +4,7 @@ import java.math.BigInteger;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-//This class is implemented to calculate the Fibonnaci sequence numbers
+//This class is implemented to calculate the Fibonacci sequence numbers
 public class FibonacciSequenceCalculator {
 	public static final int MAX_INT = 2000;
 	public static final int MIN_INT = 0;
@@ -12,8 +12,8 @@ public class FibonacciSequenceCalculator {
 	/*
 	 * The main method of the program that initializes the scanner object to accept
 	 * the input from the user. The two local variables t1 and t2 holds the initial
-	 * value for the Fibonnaci sequence. The method is implemented to validate the
-	 * user input and return the Fibonnaci value.
+	 * value for the Fibonacci sequence. The method is implemented to validate the
+	 * user input and return the Fibonacci value.
 	 */
 	public static void main(String[] args) {
 		BigInteger t1 = BigInteger.valueOf(0);
@@ -27,7 +27,7 @@ public class FibonacciSequenceCalculator {
 				/*
 				 * This for loop is iterating through i until it becomes a value high enough to
 				 * match with the user's input number. During each iteration, it performs
-				 * calculation to get the final Fibonnaci value based on user's input.
+				 * calculation to get the final Fibonacci value based on user's input.
 				 */
 				for (int i = 1; i <= userInput; i++) {
 					// sum is the next number in the sequence by adding t1 and t2.
@@ -69,7 +69,7 @@ public class FibonacciSequenceCalculator {
 		}
 		/*
 		 * If the number is in range, then the isVaslidInput method will return true so
-		 * the rest of the program can run to return the Fibonnaci sequence value.
+		 * the rest of the program can run to return the Fibonacci sequence value.
 		 */
 		return true;
 	}
